@@ -40,5 +40,4 @@ function generateConfig(name) {
 ['axios', 'axios.min'].forEach(function (key) {
   config[key] = generateConfig(key);
 });
-
 module.exports = config;
